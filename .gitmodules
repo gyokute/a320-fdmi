@@ -1,0 +1,4 @@
+[submodule "Assets/Saccflight-FDMi"]
+	path = Assets/Saccflight-FDMi
+	url = https://github.com/gyokute/Saccflight-FDMi.git
+	branch = develop
