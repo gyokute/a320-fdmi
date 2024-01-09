@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: 44ff011ba6f6bd34ba68b894eb1db12b
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1103431912748770765
+    second: gear.n
+  - first:
+      74: 6162266714323954605
+    second: wiper
+  - first:
+      74: -7140651626187584285
+    second: CargoDoor
+  - first:
+      74: 9192345351496545915
+    second: CabinDoor
+  - first:
+      74: -8215340720068519209
+    second: GearSuspenson.n
+  - first:
+      74: -4875793092114462844
+    second: EngineReactor
+  - first:
+      74: -2268777165025147298
+    second: LandingLight
+  - first:
+      74: 9019306746803545527
+    second: Rubber
+  - first:
+      74: 1927041945293787293
+    second: Aileron
+  - first:
+      74: 7784500047256277886
+    second: TrimElevator
+  - first:
+      74: -4103746842597906688
+    second: Pitch
+  - first:
+      74: -2149624750953566528
+    second: LandingGear.l
+  - first:
+      74: -4292780313167179670
+    second: LandingGear.r
+  - first:
+      74: 7099372075859084309
+    second: slot
+  - first:
+      74: 7941950950240408837
+    second: Flap
+  - first:
+      74: 8451695524020851766
+    second: GearSuspension.l
+  - first:
+      74: 2028713178852606888
+    second: GearSuspension.r
+  - first:
+      74: 6425323723334647672
+    second: spolier_inside.r
+  - first:
+      74: 2419620715298913821
+    second: spolier_outside.r
+  - first:
+      74: -4032365183007370809
+    second: spolier_inside.l
+  - first:
+      74: 8555025104690245390
+    second: spolier_outside.l
+  - first:
+      74: 562872140007362462
+    second: Armature.001|Aileron
+  - first:
+      74: -8334623705787036005
+    second: Armature.001|CabinDoor
+  - first:
+      74: -8777661109784132681
+    second: Armature.001|CargoDoor
+  - first:
+      74: -4334575473459015793
+    second: Armature.001|EngineReactor
+  - first:
+      74: 7875284379551655385
+    second: Armature.001|Flap
+  - first:
+      74: -6051399425059436362
+    second: Armature.001|gear.n
+  - first:
+      74: 7471825290141250210
+    second: Armature.001|GearSuspension.l
+  - first:
+      74: -8618282295254551141
+    second: Armature.001|GearSuspension.r
+  - first:
+      74: -1950421440479484538
+    second: Armature.001|GearSuspenson.n
+  - first:
+      74: 7242802936866707231
+    second: Armature.001|LandingGear.l
+  - first:
+      74: -915822169153030648
+    second: Armature.001|LandingGear.r
+  - first:
+      74: -6382970456096470579
+    second: Armature.001|LandingLight
+  - first:
+      74: 3670535907258632074
+    second: Armature.001|Pitch
+  - first:
+      74: 1550519516814570639
+    second: Armature.001|Rubber
+  - first:
+      74: 8144467217490850323
+    second: Armature.001|slot
+  - first:
+      74: 4407223741487171719
+    second: Armature.001|spolier_inside.l
+  - first:
+      74: 3007173448289564389
+    second: Armature.001|spolier_inside.r
+  - first:
+      74: 8702694734990869230
+    second: Armature.001|spolier_outside.l
+  - first:
+      74: 3074883851086676452
+    second: Armature.001|spolier_outside.r
+  - first:
+      74: -1894095369416334192
+    second: Armature.001|TrimElevator
+  - first:
+      74: 3754898602393379045
+    second: Armature.001|wiper
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ENGINES\u53F3"
+    second: {fileID: 2100000, guid: ba3e37b6c337735499856e9cf789c13c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ENGINES\u5DE6"
+    second: {fileID: 2100000, guid: d3df8e1456b2d944d8037690caf8837a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FUSELAGE
+    second: {fileID: 2100000, guid: 6a92fbb98ce5be145af6500901a672a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior
+    second: {fileID: 2100000, guid: 8ef2a2828798181478eb6a5b6c85b598, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LandingGear_Others
+    second: {fileID: 2100000, guid: f1871f3c054303b4ca99def6cb5f46b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WINGS
+    second: {fileID: 2100000, guid: 66dd777193b39774ba891a8dfe6734ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u5730\u6BEF\u4E0E\u9A7E\u9A76\u8231\u540E\u90E8"
+    second: {fileID: 2100000, guid: c15f5914f0c07da46a177873003ef89b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6309\u94AE"
+    second: {fileID: 2100000, guid: 28e0bce38756f3b4e8002fd0b077b8ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6CB9\u95E8\u53F0"
+    second: {fileID: 2100000, guid: 8d0be2202aa26e643b4d4dbba66e132b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u7A97\u6846\u4E0E\u9876\u68DA"
+    second: {fileID: 2100000, guid: 9306fabe6b61afe4c857d6c4a8721fe4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u9762\u677F\u53CA\u5EA7\u6905"
+    second: {fileID: 2100000, guid: b75d629a259bbe844af2dc46875662d7, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
