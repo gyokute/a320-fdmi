@@ -21,14 +21,17 @@ namespace VRChatAerospaceUniversity.V320.Avionics.Instruments.PFD {
 
         private readonly int PitchAnimationHash = Animator.StringToHash("Pitch");
         private readonly int BankAnimationHash = Animator.StringToHash("Bank");
+        private readonly int IASAnimationHash = Animator.StringToHash("IAS");
+        private readonly int HeadingAnimationHash = Animator.StringToHash("Heading");
 
         private void LateUpdate() {
             animator.SetFloat(PitchAnimationHash, pitch.data[0] / 180f + 0.5f);
             animator.SetFloat(BankAnimationHash, bank.data[0] / 180f + 0.5f);
+            animator.SetFloat(IASAnimationHash, airData.IAS.data[0] / 660f);
+            animator.SetFloat(HeadingAnimationHash, heading.data[0] / 360f);
 
-            iasText.text = (airData.IAS.data[0] * 1.94384449f).ToString("F");
+            // iasText.text = (airData.IAS.data[0] * 1.94384449f).ToString("F");
             altitudeText.text = (atmosphere.Altitude.data[0] * 3.2808399f).ToString("F");
-            headingText.text = heading.data[0].ToString("F");
         }
     }
 }

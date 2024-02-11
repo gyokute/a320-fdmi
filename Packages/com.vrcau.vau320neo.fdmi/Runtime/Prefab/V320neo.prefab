@@ -346,6 +346,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &5731335398444676279
@@ -944,6 +945,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data: 00
 --- !u!114 &5005222205676512569
 MonoBehaviour:
@@ -1285,6 +1287,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - {x: 0, y: 0, z: 0}
 --- !u!114 &3196394658409039798
@@ -1714,6 +1717,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data: 00
 --- !u!114 &2841758811385133738
 MonoBehaviour:
@@ -2493,6 +2497,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -6232,6 +6237,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &4222388856923919291
@@ -6574,6 +6580,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -13332,6 +13339,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &5440238551779599726
@@ -13674,6 +13682,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -14017,6 +14026,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &7162168174846142150
@@ -14396,6 +14406,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -14739,6 +14750,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &1040099668856584695
@@ -15081,6 +15093,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -15325,13 +15338,14 @@ MonoBehaviour:
   IsGround: {fileID: 8792783721125945978}
   brakePressure: 0.00003
   parkBrakePressure: 1500
+  absKi: 0.05
+  absTgt: 0.35
   groundLayer:
     serializedVersion: 2
     m_Bits: 131073
   preLoadTorque: 0.0001
   rpm: 0
   rotateAngle: 0
-  retractThreshold: 0.5
   retractDirection: {x: 0, y: 1, z: 0}
   retractCurve:
     serializedVersion: 2
@@ -15736,6 +15750,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &2839255798571914248
@@ -19508,6 +19523,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &5369097019947409711
@@ -19850,6 +19866,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &6470632969405852786
@@ -20245,6 +20262,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &959888173836854595
@@ -23534,6 +23552,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data: 00
 --- !u!114 &4142280437957112599
 MonoBehaviour:
@@ -29909,6 +29928,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - {x: 0, y: 0, z: 0}
 --- !u!114 &2865772626494685318
@@ -30077,7 +30097,7 @@ MonoBehaviour:
   objectManager: {fileID: 8296689593529275957}
   body: {fileID: 8296689592949232181}
   station: {fileID: 1608922492254022762}
-  stationManager: {fileID: 3447826484743539382}
+  stationManager: {fileID: 6974043476280783872}
   pilotPriority: -10
   onlyInSeat: {fileID: 7101809828666488186}
   InSeatBehaviours:
@@ -30086,8 +30106,8 @@ MonoBehaviour:
   - {fileID: 4321646028651456120}
   - {fileID: 653053076094658476}
   - {fileID: 8796542024297939224}
-  syncManager: {fileID: 0}
-  refPoint: {fileID: 8296689593611980260}
+  rStationMan: {fileID: 6974043476280783872}
+  isChangeRootRefPoint: 1
 --- !u!114 &8495058414599944898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30530,6 +30550,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &1716600930784498846
@@ -31152,6 +31173,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &3651171113008478737
@@ -31689,6 +31711,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &9200629384972658380
@@ -32119,6 +32142,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - {x: 0, y: 0, z: 0}
   syncedData: {x: 0, y: 0, z: 0}
@@ -32399,6 +32423,8 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 8852489069869987215}
   objectManager: {fileID: 8296689593529275957}
   body: {fileID: 8296689592949232181}
+  InZone: {fileID: 2176694670198371451}
+  IsPilot: {fileID: 9203293227544831238}
   FuelSW: {fileID: 8243088491377543060}
   AirSW: {fileID: 7319910711004929752}
   Throttle: {fileID: 1529439847152708272}
@@ -32410,12 +32436,36 @@ MonoBehaviour:
   EGT: {fileID: 4336298067982137616}
   N1: {fileID: 9218157104111791623}
   N2: {fileID: 3756784337929370783}
+  N1vsN2:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   N1StaticThrust: 179259
   N2StaticThrust: 20000
   N2min: 0.6
   N2max: 1.1
   maxAirN2: 0.4
-  airN2Coef: 0.1
+  N2FuelThreshold: 0.1
   N1ReverserRatio: -0.5
   N2ReverserRatio: 1
   ffIdle: 0.47
@@ -32423,6 +32473,7 @@ MonoBehaviour:
   egtMax: 1267
   N1dt: 0.12
   N2dt: 0.15
+  N2Airdt: 0.02
   ffDt: 1
   egtDt: 50
   inputNoise: 0.02
@@ -32896,6 +32947,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - {x: 0, y: 0, z: 0}
 --- !u!114 &7232722065523768958
@@ -36289,6 +36341,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - {x: 0, y: 0, z: 0}
 --- !u!114 &6699305006513781335
@@ -36668,6 +36721,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - {x: 0, y: 0, z: 0}
 --- !u!114 &5577691144990934700
@@ -37345,6 +37399,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &1079716770419823971
@@ -37920,6 +37975,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &6051113043576151995
@@ -38746,6 +38802,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &5196143774317762109
@@ -38846,13 +38903,14 @@ MonoBehaviour:
   IsGround: {fileID: 6598678321459862751}
   brakePressure: 0
   parkBrakePressure: 0
+  absKi: 0.05
+  absTgt: 0.35
   groundLayer:
     serializedVersion: 2
     m_Bits: 131073
   preLoadTorque: 0
   rpm: 0
   rotateAngle: 75
-  retractThreshold: 0.5
   retractDirection: {x: 0, y: 1, z: 0}
   retractCurve:
     serializedVersion: 2
@@ -39030,7 +39088,7 @@ MonoBehaviour:
   objectManager: {fileID: 8296689593529275957}
   body: {fileID: 8296689592949232181}
   station: {fileID: 6698993804909552519}
-  stationManager: {fileID: 3447826484743539382}
+  stationManager: {fileID: 6974043476280783872}
   pilotPriority: -9
   onlyInSeat: {fileID: 845857844842614401}
   InSeatBehaviours:
@@ -39039,8 +39097,8 @@ MonoBehaviour:
   - {fileID: 1856255811195790702}
   - {fileID: 9216376723001933899}
   - {fileID: 5488507366137705608}
-  syncManager: {fileID: 0}
-  refPoint: {fileID: 8296689593611980260}
+  rStationMan: {fileID: 6974043476280783872}
+  isChangeRootRefPoint: 1
 --- !u!114 &6007391760844592309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42461,8 +42519,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3351145755947456214}
-  - component: {fileID: 3447826484743539382}
-  - component: {fileID: 412788424788216421}
+  - component: {fileID: 6974043476280783872}
+  - component: {fileID: 6007733238607342085}
   m_Layer: 0
   m_Name: Seats
   m_TagString: Untagged
@@ -42486,7 +42544,7 @@ Transform:
   - {fileID: 4811638744750133485}
   m_Father: {fileID: 8296689593457330098}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3447826484743539382
+--- !u!114 &6974043476280783872
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42495,7 +42553,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3997404909907668488}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 657491d87cc60724c9373565cc756b8b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f6bb34b7e7dd80489c426d16986b6d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   serializationData:
@@ -42507,16 +42565,17 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  _udonSharpBackingUdonBehaviour: {fileID: 412788424788216421}
+  _udonSharpBackingUdonBehaviour: {fileID: 6007733238607342085}
   objectManager: {fileID: 8296689593529275957}
   body: {fileID: 8296689592949232181}
-  onlyIsRoot: {fileID: 6362789092468967416}
   stations:
   - {fileID: 6749290099641721476}
   - {fileID: 797563910842528541}
   IsPilot: {fileID: 9203293227544831238}
   InZone: {fileID: 2176694670198371451}
---- !u!114 &412788424788216421
+  syncManager: {fileID: 0}
+  refPoint: {fileID: 8296689593611980260}
+--- !u!114 &6007733238607342085
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42536,9 +42595,9 @@ MonoBehaviour:
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
   _syncMethod: 2
-  serializedProgramAsset: {fileID: 11400000, guid: 42f8f2b3ba60343448a74bb9a1b9a1e0,
+  serializedProgramAsset: {fileID: 11400000, guid: 40c43e6f3fa49bb429b0f853cc9afd29,
     type: 2}
-  programSource: {fileID: 11400000, guid: 2ba5d4aff4c488743a1e723215fb2b2e, type: 2}
+  programSource: {fileID: 11400000, guid: 4c5946280d094354c8ff47cbd18ebcff, type: 2}
   serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
   publicVariablesUnityEngineObjects: []
   publicVariablesSerializationDataFormat: 0
@@ -43026,6 +43085,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -43369,6 +43429,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -44052,6 +44113,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &9169869022440986708
@@ -44447,6 +44509,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &2999408070697025537
@@ -45376,6 +45439,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &3310020599524826960
@@ -45718,6 +45782,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data: 00
 --- !u!114 &5056397358754811621
 MonoBehaviour:
@@ -46215,6 +46280,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &431554139519599406
@@ -46626,6 +46692,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &4069849556915375941
@@ -56465,6 +56532,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &2774308573064451123
@@ -56870,6 +56938,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - {x: 0, y: 0, z: 0}
   syncedData: {x: 0, y: 0, z: 0}
@@ -57360,6 +57429,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 14400
 --- !u!114 &2344189705756773815
@@ -57866,6 +57936,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &5515134091072546957
@@ -58208,6 +58279,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &6011157007799602582
@@ -58550,6 +58622,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -62037,6 +62110,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &4064170891841329328
@@ -62379,6 +62453,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &798715029794773135
@@ -65838,6 +65913,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -66345,6 +66421,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &8042162015249532360
@@ -67032,6 +67109,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &787547199452212416
@@ -70510,6 +70588,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -71178,6 +71257,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &6310024873243090170
@@ -74500,6 +74580,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &6557614224735159054
@@ -78365,6 +78446,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &8483239009502172945
@@ -78791,6 +78873,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &5798217463712565172
@@ -79133,6 +79216,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &497355741726582212
@@ -79661,6 +79745,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - {x: 24675890, y: 44877580, z: 6738415}
 --- !u!114 &3011031228440930028
@@ -82875,13 +82960,14 @@ MonoBehaviour:
   IsGround: {fileID: 5804839237253654591}
   brakePressure: 0.00003
   parkBrakePressure: 1500
+  absKi: 0.05
+  absTgt: 0.35
   groundLayer:
     serializedVersion: 2
     m_Bits: 131073
   preLoadTorque: 0.0001
   rpm: 0
   rotateAngle: 0
-  retractThreshold: 0.5
   retractDirection: {x: 0, y: 1, z: 0}
   retractCurve:
     serializedVersion: 2
@@ -83506,6 +83592,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &1011767168188578417
@@ -83848,6 +83935,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &4577030999101666656
@@ -84190,6 +84278,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &7327464680189711140
@@ -87997,6 +88086,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -88535,6 +88625,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1147514346518288011
@@ -88877,6 +88968,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -92465,6 +92557,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &8940791584593132061
@@ -92845,6 +92938,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - {x: 0, y: 0, z: -2.5}
 --- !u!114 &5334501753967684795
@@ -93187,6 +93281,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &3911777434076359401
@@ -93431,7 +93526,7 @@ MonoBehaviour:
   - {fileID: 2890303983293986749}
   - {fileID: 1470014066403599602}
   - {fileID: 2531141427435166446}
-  - {fileID: 3447826484743539382}
+  - {fileID: 0}
   - {fileID: 6749290099641721476}
   - {fileID: 797563910842528541}
   - {fileID: 683095046578922985}
@@ -93556,18 +93651,29 @@ MonoBehaviour:
   parentIsRoot: 0
   syncManager: {fileID: 0}
   body: {fileID: 8296689592949232181}
+  syncedPos: {x: 0, y: 0, z: 0}
+  syncedRot: {x: 0, y: 0, z: 0, w: 1}
+  syncedKmPos: {x: 0, y: 0, z: 0}
   _position: {x: 0, y: 0, z: 0}
-  _direction: {x: 0, y: 0, z: 0, w: 0}
+  _velocity: {x: 0, y: 0, z: 0}
   _kmPosition: {x: 0, y: 0, z: 0}
-  velocity: {x: 0, y: 0, z: 0}
+  _rotation: {x: 0, y: 0, z: 0, w: 1}
   _isRoot: 0
   parentRefPoint: {fileID: 0}
   rootRefPoint: {fileID: 0}
   respawnPoint: {x: 0, y: 0, z: 0}
   stopUpdate: 1
   careIsKinematic: 1
+  updateInterval: 0.25
+  IdleMovementRange: 0.35
+  IdleRotationRange: 5
   gravity: {x: 0, y: -9.8, z: 0}
   obejctManaer: {fileID: 8296689593529275957}
+  RotationSyncAgressiveness: 10
+  IdleModeVelMultiplier: 0.4
+  MaxPingExtrapolationInSeconds: 0.1
+  ownerSyncedTime: 0
+  syncedVel: {x: 0, y: 0, z: 0}
 --- !u!114 &8296689593611980261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93942,6 +94048,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &5903693203061781892
@@ -94284,6 +94391,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
   syncedData: 0
@@ -100703,6 +100811,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &2682385796196546949
@@ -104223,6 +104332,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &7530320088869672164
@@ -104314,6 +104424,8 @@ MonoBehaviour:
   _udonSharpBackingUdonBehaviour: {fileID: 66058668935447052}
   objectManager: {fileID: 8296689593529275957}
   body: {fileID: 8296689592949232181}
+  InZone: {fileID: 2176694670198371451}
+  IsPilot: {fileID: 9203293227544831238}
   FuelSW: {fileID: 1709319108700541590}
   AirSW: {fileID: 8635634651910534303}
   Throttle: {fileID: 6723338976617402060}
@@ -104325,12 +104437,36 @@ MonoBehaviour:
   EGT: {fileID: 1186417413770550365}
   N1: {fileID: 3816133870548601381}
   N2: {fileID: 6637555701828678953}
+  N1vsN2:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   N1StaticThrust: 179259
   N2StaticThrust: 20000
   N2min: 0.6
   N2max: 1.1
   maxAirN2: 0.4
-  airN2Coef: 0.1
+  N2FuelThreshold: 0.1
   N1ReverserRatio: -0.5
   N2ReverserRatio: 1
   ffIdle: 0.47
@@ -104338,6 +104474,7 @@ MonoBehaviour:
   egtMax: 1267
   N1dt: 0.12
   N2dt: 0.15
+  N2Airdt: 0.02
   ffDt: 1
   egtDt: 50
   inputNoise: 0.02
@@ -104729,6 +104866,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &651628271157865192
@@ -105071,6 +105209,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - {x: 0, y: 0, z: 0}
 --- !u!114 &1330467840956432101
@@ -105413,6 +105552,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data: 00
 --- !u!114 &8500974936184908703
 MonoBehaviour:
@@ -108891,6 +109031,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data: 00
 --- !u!114 &7166624492488121230
 MonoBehaviour:
@@ -112572,6 +112713,7 @@ MonoBehaviour:
   - 
   - 
   - 
+  updateInterval: 0.25
   data:
   - 0
 --- !u!114 &7908361255319910207
