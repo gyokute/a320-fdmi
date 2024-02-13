@@ -113131,6 +113131,11 @@ PrefabInstance:
       objectReference: {fileID: 8272570080719013475}
     - target: {fileID: 1761890160773645901, guid: f215815568a9334468170360f0e4cf6d,
         type: 3}
+      propertyPath: verticalSpeed
+      value: 
+      objectReference: {fileID: 3225294618976059827}
+    - target: {fileID: 1761890160773645901, guid: f215815568a9334468170360f0e4cf6d,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: 1761890160773645901, guid: f215815568a9334468170360f0e4cf6d,
