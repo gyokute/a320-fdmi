@@ -7081,12 +7081,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a588d9aabb63e1947a6b1de9f50924d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1340034710 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2982464578136187765, guid: fe46657596da3894694f2886fe9ca885,
-    type: 3}
-  m_PrefabInstance: {fileID: 8296689594343415135}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1340055629 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8049123454006507256, guid: fe46657596da3894694f2886fe9ca885,
@@ -11742,7 +11736,7 @@ PrefabInstance:
         type: 3}
       propertyPath: NetworkIDs.Array.data[381].gameObject
       value: 
-      objectReference: {fileID: 1340034710}
+      objectReference: {fileID: 0}
     - target: {fileID: 6759095419728963412, guid: 8894fa7e4588a5c4fab98453e558847d,
         type: 3}
       propertyPath: NetworkIDs.Array.data[382].gameObject
@@ -14678,6 +14672,12 @@ PrefabInstance:
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: 6749290099641721476, guid: fe46657596da3894694f2886fe9ca885,
+        type: 3}
+    - target: {fileID: 6774172353487831091, guid: fe46657596da3894694f2886fe9ca885,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 6774172353487831091, guid: fe46657596da3894694f2886fe9ca885,
         type: 3}
     - target: {fileID: 6775690701067364130, guid: fe46657596da3894694f2886fe9ca885,
         type: 3}

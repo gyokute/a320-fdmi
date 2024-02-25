@@ -1,9 +1,7 @@
 ﻿using tech.gyoku.FDMi.aerodynamics;
-using tech.gyoku.FDMi.avionics;
 using tech.gyoku.FDMi.core;
 using UdonSharp;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace VRChatAerospaceUniversity.V320.Avionics.Instruments.PFD {
@@ -19,7 +17,7 @@ namespace VRChatAerospaceUniversity.V320.Avionics.Instruments.PFD {
 
         [SerializeField] private Animator animator;
 
-        [SerializeField] private Text iasText, altitudeText, headingText;
+        [SerializeField] private Text verticalSpeedText;
 
         private readonly int PitchAnimationHash = Animator.StringToHash("Pitch");
         private readonly int BankAnimationHash = Animator.StringToHash("Bank");
@@ -43,8 +41,11 @@ namespace VRChatAerospaceUniversity.V320.Avionics.Instruments.PFD {
             animator.SetFloat(BankAnimationHash, bank.data[0] / 180f + 0.5f);
             animator.SetFloat(IASAnimationHash, airData.IAS.data[0] / 660f);
             animator.SetFloat(HeadingAnimationHash, heading.data[0] / 360f);
+
+            var verticalSpeedFpm = verticalSpeed.data[0] * 196.85f;
             animator.SetFloat(VerticalSpeedAnimationHash,
-                Mathf.Clamp01(verticalSpeed.data[0] * 196.85f / 6000f + 0.5f));
+                Mathf.Clamp01(verticalSpeedFpm / 6000f + 0.5f));
+            verticalSpeedText.text = (Mathf.Abs(verticalSpeedFpm / 100f)).ToString("00");
 
             var altitude = atmosphere.Altitude.data[0] * 3.2808399f;
 
@@ -56,9 +57,6 @@ namespace VRChatAerospaceUniversity.V320.Avionics.Instruments.PFD {
                 altitude / 100f % 10f / 10f);
 
             animator.SetFloat(SecondAltitudeAnimationHash, altitude % 100f / 100f);
-
-            // iasText.text = (airData.IAS.data[0] * 1.94384449f).ToString("F");
-            altitudeText.text = altitude.ToString("F");
         }
     }
 }
