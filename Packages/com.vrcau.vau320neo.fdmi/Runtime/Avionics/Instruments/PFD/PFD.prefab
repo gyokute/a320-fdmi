@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1998162553842136072}
   - component: {fileID: 4105345540351060619}
   - component: {fileID: 6385997340522725008}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: SecondAltitudeIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4151152074491551346}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: FD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 4529166444498813434}
   - component: {fileID: 3193195350225712309}
   - component: {fileID: 6644035439734552106}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: HeadingTape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 1702325284890327131}
   - component: {fileID: 3433925407274086329}
   - component: {fileID: 4380475856194251575}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,85 +247,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &963920796989249375
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7884400715686417407}
-  - component: {fileID: 9006191957584102961}
-  - component: {fileID: 8051573740856526155}
-  m_Layer: 0
-  m_Name: ALT
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &7884400715686417407
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963920796989249375}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9021715263730053572}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 179.5, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &9006191957584102961
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963920796989249375}
-  m_CullTransparentMesh: 1
---- !u!114 &8051573740856526155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963920796989249375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 26
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 36100.55
 --- !u!1 &1690749543483445760
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,7 +258,7 @@ GameObject:
   - component: {fileID: 6859591999083825486}
   - component: {fileID: 8875175404295488630}
   - component: {fileID: 2484287024743092826}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: 2nd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -436,7 +357,7 @@ GameObject:
   - component: {fileID: 282444896244769349}
   - component: {fileID: 4636876813040192891}
   - component: {fileID: 3793025579672095984}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: 1st
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -535,7 +456,7 @@ GameObject:
   - component: {fileID: 5155985767071716718}
   - component: {fileID: 5389087795181259576}
   - component: {fileID: 2730930956107459083}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: VSTextIndicatorBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -600,42 +521,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &3222149751835858154
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9021715263730053572}
-  m_Layer: 0
-  m_Name: Texts
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &9021715263730053572
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3222149751835858154}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7884400715686417407}
-  m_Father: {fileID: 2025874050294484642}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -148.2, y: 171.9}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4358482227610675502
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,7 +530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 787710085401188567}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: AttitudePointerFD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -682,7 +567,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8023183723661920577}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: FMA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -718,7 +603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5675147575026053715}
   - component: {fileID: 7827906907556763194}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: AltitudeIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -765,7 +650,7 @@ GameObject:
   - component: {fileID: 3921585938822235670}
   - component: {fileID: 7044605139808691480}
   - component: {fileID: 2964826823892703053}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: VSTextIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -844,7 +729,7 @@ GameObject:
   - component: {fileID: 6978208130503309605}
   - component: {fileID: 8771955889726089665}
   - component: {fileID: 3753110925616889974}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Attitude2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -919,7 +804,7 @@ GameObject:
   - component: {fileID: 6408353285627456601}
   - component: {fileID: 512526666173204989}
   - component: {fileID: 3692394444773166581}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: 3rd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1016,8 +901,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2025874050294484642}
-  - component: {fileID: 1761890160773645901}
-  - component: {fileID: 5731423396679224735}
+  - component: {fileID: 4826094984541989644}
+  - component: {fileID: 4432505792509764575}
   m_Layer: 0
   m_Name: PFD
   m_TagString: Untagged
@@ -1040,11 +925,10 @@ Transform:
   m_Children:
   - {fileID: 5576530771375085249}
   - {fileID: 6317174643708365774}
-  - {fileID: 9021715263730053572}
   - {fileID: 7783286222925046228}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1761890160773645901
+--- !u!114 &4826094984541989644
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1053,7 +937,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6127110485139742675}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6158c0ba11774f4899f0979fd3f3683, type: 3}
+  m_Script: {fileID: 11500000, guid: 2aed7b3f8dcb25a438ffe9a41119d118, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   serializationData:
@@ -1065,7 +949,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  _udonSharpBackingUdonBehaviour: {fileID: 5731423396679224735}
+  _udonSharpBackingUdonBehaviour: {fileID: 4432505792509764575}
   airData: {fileID: 0}
   atmosphere: {fileID: 0}
   pitch: {fileID: 0}
@@ -1074,7 +958,7 @@ MonoBehaviour:
   verticalSpeed: {fileID: 0}
   animator: {fileID: 2908564715577348440}
   verticalSpeedText: {fileID: 2964826823892703053}
---- !u!114 &5731423396679224735
+--- !u!114 &4432505792509764575
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1094,9 +978,9 @@ MonoBehaviour:
   AllowCollisionOwnershipTransfer: 0
   Reliable: 0
   _syncMethod: 3
-  serializedProgramAsset: {fileID: 11400000, guid: 6626b376c81814f44a36a7e6cbb19dab,
+  serializedProgramAsset: {fileID: 11400000, guid: 764d67d1e99f11149a51de0f6cd23d2f,
     type: 2}
-  programSource: {fileID: 11400000, guid: ccb8b01b66aa463468b3d64beab3cbdd, type: 2}
+  programSource: {fileID: 11400000, guid: ab834ddf67f82d64f808de4ebb3cdbf8, type: 2}
   serializedPublicVariablesBytesString: Ai8AAAAAATIAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAFQAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AAAAAAAYBAAAAAAAAACcBBAAAAHQAeQBwAGUAAWgAAABTAHkAcwB0AGUAbQAuAEMAbwBsAGwAZQBjAHQAaQBvAG4AcwAuAEcAZQBuAGUAcgBpAGMALgBMAGkAcwB0AGAAMQBbAFsAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4ALgBJAG4AdABlAHIAZgBhAGMAZQBzAC4ASQBVAGQAbwBuAFYAYQByAGkAYQBiAGwAZQAsACAAVgBSAEMALgBVAGQAbwBuAC4AQwBvAG0AbQBvAG4AXQBdACwAIABtAHMAYwBvAHIAbABpAGIAAQEJAAAAVgBhAHIAaQBhAGIAbABlAHMALwEAAAABaAAAAFMAeQBzAHQAZQBtAC4AQwBvAGwAbABlAGMAdABpAG8AbgBzAC4ARwBlAG4AZQByAGkAYwAuAEwAaQBzAHQAYAAxAFsAWwBWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAEkAbgB0AGUAcgBmAGEAYwBlAHMALgBJAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlACwAIABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgBdAF0ALAAgAG0AcwBjAG8AcgBsAGkAYgABAAAABgEAAAAAAAAAAi8CAAAAAUkAAABWAFIAQwAuAFUAZABvAG4ALgBDAG8AbQBtAG8AbgAuAFUAZABvAG4AVgBhAHIAaQBhAGIAbABlAGAAMQBbAFsAUwB5AHMAdABlAG0ALgBJAG4AdAAzADIALAAgAG0AcwBjAG8AcgBsAGkAYgBdAF0ALAAgAFYAUgBDAC4AVQBkAG8AbgAuAEMAbwBtAG0AbwBuAAIAAAAGAgAAAAAAAAAnAQQAAAB0AHkAcABlAAEXAAAAUwB5AHMAdABlAG0ALgBTAHQAcgBpAG4AZwAsACAAbQBzAGMAbwByAGwAaQBiACcBCgAAAFMAeQBtAGIAbwBsAE4AYQBtAGUAAR8AAABfAF8AXwBVAGQAbwBuAFMAaABhAHIAcABCAGUAaABhAHYAaQBvAHUAcgBWAGUAcgBzAGkAbwBuAF8AXwBfACcBBAAAAHQAeQBwAGUAARYAAABTAHkAcwB0AGUAbQAuAEkAbgB0ADMAMgAsACAAbQBzAGMAbwByAGwAaQBiABcBBQAAAFYAYQBsAHUAZQACAAAABwUHBQcF
   publicVariablesUnityEngineObjects: []
   publicVariablesSerializationDataFormat: 0
@@ -1194,7 +1078,7 @@ GameObject:
   - component: {fileID: 1554029000529353642}
   - component: {fileID: 5577271608354038562}
   - component: {fileID: 8824226061429923446}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: FDHor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1269,7 +1153,7 @@ GameObject:
   - component: {fileID: 3855420465581132514}
   - component: {fileID: 924042757064985505}
   - component: {fileID: 6358908460154391410}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: SecondAltitudeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1364,7 +1248,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6535844920559329269}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: VSIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1404,7 +1288,7 @@ GameObject:
   - component: {fileID: 8600795327213219755}
   - component: {fileID: 4969492656062027903}
   - component: {fileID: 2952475034927440293}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Attitude
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1479,7 +1363,7 @@ GameObject:
   - component: {fileID: 7985557452033892467}
   - component: {fileID: 7665698187081806792}
   - component: {fileID: 703652928860765807}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: FDVert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1554,7 +1438,7 @@ GameObject:
   - component: {fileID: 6976391194286398066}
   - component: {fileID: 8849934959831736478}
   - component: {fileID: 1647022474730350485}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: FlightLevelAltitudeIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1616,7 +1500,7 @@ GameObject:
   - component: {fileID: 8180800907789172661}
   - component: {fileID: 4303533456941291176}
   - component: {fileID: 8223561274837448265}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: StaticTopIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1692,7 +1576,7 @@ GameObject:
   - component: {fileID: 6318624880951901613}
   - component: {fileID: 4685785330391101601}
   - component: {fileID: 453973182349116055}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: SpeedTape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1834,8 +1718,8 @@ Camera:
     y: 0
     width: 512
     height: 512
-  near clip plane: -0.001
-  far clip plane: 0.01
+  near clip plane: -1
+  far clip plane: 1
   field of view: 60
   orthographic: 1
   orthographic size: 1
@@ -1843,15 +1727,15 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 1073741824
-  m_RenderingPath: -1
+  m_RenderingPath: 1
   m_TargetTexture: {fileID: 8400000, guid: 6bf80d517c0da154e96637266eb80b6d, type: 2}
   m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
+  m_TargetEye: 0
+  m_HDR: 0
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!1 &7887176663663917818
@@ -1865,7 +1749,7 @@ GameObject:
   - component: {fileID: 5220078376692603481}
   - component: {fileID: 1459261995354167445}
   - component: {fileID: 6984943581923911800}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: AttitudePointer2Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1938,7 +1822,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8598481137153541801}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: AttitudeIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1977,7 +1861,7 @@ GameObject:
   - component: {fileID: 2096657247272149897}
   - component: {fileID: 3479335811850106743}
   - component: {fileID: 6109407489217356613}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: VSIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2108,7 +1992,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -2197,7 +2081,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4785583644082925457}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Roll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2235,7 +2119,7 @@ GameObject:
   - component: {fileID: 2105464253557155644}
   - component: {fileID: 3870996444670792888}
   - component: {fileID: 1614089620406703938}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Cover
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2310,7 +2194,7 @@ GameObject:
   - component: {fileID: 8819427004638701132}
   - component: {fileID: 5692636109368057984}
   - component: {fileID: 3745110989671356143}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: SpeedTapeSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

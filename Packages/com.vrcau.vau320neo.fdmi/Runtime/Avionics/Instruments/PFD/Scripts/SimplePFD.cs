@@ -50,11 +50,11 @@ namespace VRChatAerospaceUniversity.V320.Avionics.Instruments.PFD {
             var altitude = atmosphere.Altitude.data[0] * 3.2808399f;
 
             animator.SetFloat(FlightLevelAltitude1stAnimationHash,
-                altitude / 10000f % 10f / 10f);
+            altitude / 10000f % 10f / 10f);
             animator.SetFloat(FlightLevelAltitude2ndAnimationHash,
-                altitude / 1000f % 10f / 10f);
+            altitude / 1000f % 10f / 10f);
             animator.SetFloat(FlightLevelAltitude3rdAnimationHash,
-                altitude / 100f % 10f / 10f);
+            altitude / 100f % 10f / 10f);
 
             animator.SetFloat(SecondAltitudeAnimationHash, altitude % 100f / 100f);
         }

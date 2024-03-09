@@ -112922,6 +112922,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4826094984541989644, guid: 7825e463ebc56784e9ae2eaaa6b748f2,
+        type: 3}
+      propertyPath: bank
+      value: 
+      objectReference: {fileID: 4979480774437137331}
+    - target: {fileID: 4826094984541989644, guid: 7825e463ebc56784e9ae2eaaa6b748f2,
+        type: 3}
+      propertyPath: pitch
+      value: 
+      objectReference: {fileID: 8866664765943340967}
+    - target: {fileID: 4826094984541989644, guid: 7825e463ebc56784e9ae2eaaa6b748f2,
+        type: 3}
+      propertyPath: airData
+      value: 
+      objectReference: {fileID: 5100137218199743909}
+    - target: {fileID: 4826094984541989644, guid: 7825e463ebc56784e9ae2eaaa6b748f2,
+        type: 3}
+      propertyPath: heading
+      value: 
+      objectReference: {fileID: 5077472237524960359}
+    - target: {fileID: 4826094984541989644, guid: 7825e463ebc56784e9ae2eaaa6b748f2,
+        type: 3}
+      propertyPath: atmosphere
+      value: 
+      objectReference: {fileID: 8272570080719013475}
+    - target: {fileID: 4826094984541989644, guid: 7825e463ebc56784e9ae2eaaa6b748f2,
+        type: 3}
+      propertyPath: verticalSpeed
+      value: 
+      objectReference: {fileID: 3225294618976059827}
+    - target: {fileID: 4826094984541989644, guid: 7825e463ebc56784e9ae2eaaa6b748f2,
+        type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 4826094984541989644, guid: 7825e463ebc56784e9ae2eaaa6b748f2,
+        type: 3}
     - target: {fileID: 6127110485139742675, guid: 7825e463ebc56784e9ae2eaaa6b748f2,
         type: 3}
       propertyPath: m_Name
