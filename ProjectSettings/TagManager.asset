@@ -35,7 +35,7 @@ TagManager:
   - 
   - 
   - BoardingCollider
-  - 
+  - Instruments
   - 
   m_SortingLayers:
   - name: Default

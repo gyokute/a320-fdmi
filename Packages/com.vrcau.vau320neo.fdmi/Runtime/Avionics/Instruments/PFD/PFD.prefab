@@ -1834,15 +1834,15 @@ Camera:
     y: 0
     width: 512
     height: 512
-  near clip plane: -1
-  far clip plane: 1
+  near clip plane: -0.001
+  far clip plane: 0.01
   field of view: 60
   orthographic: 1
-  orthographic size: 512
+  orthographic size: 1
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 1073741824
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 6bf80d517c0da154e96637266eb80b6d, type: 2}
   m_TargetDisplay: 0
@@ -2055,7 +2055,7 @@ GameObject:
   - component: {fileID: 7664030583250698229}
   - component: {fileID: 2472366238379616860}
   - component: {fileID: 2908564715577348440}
-  m_Layer: 0
+  m_Layer: 30
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
