@@ -1,25 +1,84 @@
 {
   "dependencies": {
-    "com.vrchat.core.vpm-resolver": {
-      "version": "0.1.26"
+    "com.vrchat.base": {
+      "version": "3.5.1"
     },
     "com.vrchat.worlds": {
-      "version": "3.5.0-beta.1"
+      "version": "3.5.1"
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.28"
+    },
+    "tech.gyoku.fdmi.dynamics": {
+      "version": "2.0.1"
+    },
+    "tech.gyoku.fdmi.core": {
+      "version": "2.0.1"
+    },
+    "tech.gyoku.fdmi.aerodynamics": {
+      "version": "2.0.1"
+    },
+    "tech.gyoku.fdmi.sync": {
+      "version": "2.0.1"
+    },
+    "tech.gyoku.fdmi.avionics": {
+      "version": "2.0.1"
+    },
+    "tech.gyoku.fdmi.editor": {
+      "version": "2.0.1"
+    },
+    "tech.gyoku.fdmi.input": {
+      "version": "2.0.1"
+    },
+    "tech.gyoku.fdmi.example": {
+      "version": "2.0.1"
     }
   },
   "locked": {
-    "com.vrchat.core.vpm-resolver": {
-      "version": "0.1.27",
+    "com.vrchat.base": {
+      "version": "3.5.1",
       "dependencies": {}
     },
     "com.vrchat.worlds": {
-      "version": "3.5.0",
+      "version": "3.5.1",
       "dependencies": {
-        "com.vrchat.base": "3.5.0"
+        "com.vrchat.base": "3.5.1"
       }
     },
-    "com.vrchat.base": {
-      "version": "3.5.0",
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.28",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.dynamics": {
+      "version": "2.0.1",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.core": {
+      "version": "2.0.1",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.aerodynamics": {
+      "version": "2.0.1",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.sync": {
+      "version": "2.0.1",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.avionics": {
+      "version": "2.0.1",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.editor": {
+      "version": "2.0.1",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.input": {
+      "version": "2.0.1",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.example": {
+      "version": "2.0.1",
       "dependencies": {}
     }
   }

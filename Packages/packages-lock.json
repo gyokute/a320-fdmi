@@ -251,7 +251,8 @@
         "com.unity.mathematics": "1.2.6",
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.xr.management": "4.3.3",
-        "com.unity.xr.oculus": "4.0.0"
+        "com.unity.xr.oculus": "4.0.0",
+        "com.unity.postprocessing": "3.2.2"
       }
     },
     "com.vrchat.core.vpm-resolver": {
@@ -268,10 +269,57 @@
       "source": "embedded",
       "dependencies": {
         "com.unity.cinemachine": "2.9.7",
-        "com.unity.postprocessing": "3.2.2",
         "com.unity.textmeshpro": "3.0.6",
         "com.unity.inputsystem": "1.2.0"
       }
+    },
+    "tech.gyoku.fdmi.aerodynamics": {
+      "version": "file:tech.gyoku.fdmi.aerodynamics",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.avionics": {
+      "version": "file:tech.gyoku.fdmi.avionics",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.core": {
+      "version": "file:tech.gyoku.fdmi.core",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.dynamics": {
+      "version": "file:tech.gyoku.fdmi.dynamics",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.editor": {
+      "version": "file:tech.gyoku.fdmi.editor",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.example": {
+      "version": "file:tech.gyoku.fdmi.example",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.input": {
+      "version": "file:tech.gyoku.fdmi.input",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "tech.gyoku.fdmi.sync": {
+      "version": "file:tech.gyoku.fdmi.sync",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
