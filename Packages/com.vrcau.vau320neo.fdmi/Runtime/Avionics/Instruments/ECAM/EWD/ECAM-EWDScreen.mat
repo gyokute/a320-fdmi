@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Screen
+  m_Name: ECAM-EWDScreen
   m_Shader: {fileID: 4800000, guid: 67fde91b781998e4c819c856f1077acb, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _InputVideo:
-        m_Texture: {fileID: 8400000, guid: 6bf80d517c0da154e96637266eb80b6d, type: 2}
+        m_Texture: {fileID: 8400000, guid: b242cf6a9790168438f0bad4287c82ea, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LEDTexture:
@@ -89,7 +89,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BrightnessIntensity: 19.83
+    - _BrightnessIntensity: 20
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
